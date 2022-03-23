@@ -1,4 +1,6 @@
 # 문자열이 회문인지 검사하는 함수를 리스트 슬라이싱을 사용하지 않고 재귀함수로 작성
+# Test that is char a palindrome by using recursive function, without slicing list
+
 char = 'eye'
 def palindrome(s):
     if len(s) == 1:

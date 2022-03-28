@@ -1,3 +1,4 @@
+#convert sparse matrix to tuple, and convert tuple to sparse matrix 
 class SparseMatrix:
     def __init__(self):
         self.matrix = [[0, 3, 0, 2], [8, 0, 4, 0], [0,0,0,5]]

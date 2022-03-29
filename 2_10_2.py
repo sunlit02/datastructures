@@ -26,13 +26,13 @@ class SparseMatrix:
         for i in range(row_m*col_m):
             self.convert.append(0)
         for j in range(1, num+1):
-            self.convert.insert(self.sparse_list[j][0]*4 + self.sparse_list[j][1], self.sparse_list[j][2])
+            self.convert.insert(self.sparse_list[j][0]*col_m + self.sparse_list[j][1], self.sparse_list[j][2])
             self.convert.pop()
         a = 0
         for h in range(len(self.convert)):
             print(self.convert[h], end=" ")
             a +=1
-            if a%4 == 0:
+            if a%col_m== 0:
                 print(end="\n")
 
 s = SparseMatrix()

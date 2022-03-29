@@ -1,3 +1,4 @@
+#Find all posible permutations with n element (n>1)
 def perm(word, i, n):
     if i == n:
         print(''.join(word), end=' ')

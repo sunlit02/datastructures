@@ -7,7 +7,7 @@ class Node:  # 노드 생성
         self.rlink = None
         self.llink = None
 
-
+# circler linked list exclude head node
 class Linkedlist:
     def __init__(self):   # 빈 순환 연결 리스트 생성
         self.first = None
